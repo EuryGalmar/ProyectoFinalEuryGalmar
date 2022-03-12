@@ -1,0 +1,256 @@
+.col-lg-6 {
+  contain: layout;
+  margin: 10px auto;
+  padding-top: 0%; }
+
+/* variables */
+.col-lg-6 {
+  background-color: transparent; }
+  .col-lg-6 h1 {
+    color: white; }
+  .col-lg-6 p {
+    color: black;
+    text-align: justify;
+    font-family: 'Dosis', sans-serif; }
+
+.texto {
+  background: linear-gradient(to bottom, black); }
+  .texto__encabezado {
+    color: white; }
+  .texto__parrafo {
+    font-size: 20px; }
+    .texto__parrafo--color {
+      color: blue; }
+      @media only screen and (max-width: 768px) {
+        .texto__parrafo--color {
+          color: yellow; } }
+
+.col-lg-6 {
+  contain: layout;
+  margin: 10px auto;
+  padding-top: 0%; }
+
+.col-lg-6 {
+  contain: layout;
+  margin: 10px auto;
+  padding-top: 0%; }
+
+/* variables */
+.col-lg-6 {
+  background-color: transparent; }
+  .col-lg-6 h1 {
+    color: white; }
+  .col-lg-6 p {
+    color: black;
+    text-align: justify;
+    font-family: 'Dosis', sans-serif; }
+
+.texto {
+  background: linear-gradient(to bottom, black); }
+  .texto__encabezado {
+    color: white; }
+  .texto__parrafo {
+    font-size: 20px; }
+    .texto__parrafo--color {
+      color: blue; }
+      @media only screen and (max-width: 768px) {
+        .texto__parrafo--color {
+          color: yellow; } }
+
+.col-lg-12, .col-xs-12, .col-lg-4, .container-fluid, .row {
+  padding: 0;
+  margin: 10px auto; }
+
+.nav-link {
+  color: black !important; }
+
+.col-lg-6 {
+  contain: layout;
+  margin: 10px auto;
+  padding-top: 0%; }
+
+/* variables */
+.col-lg-6 {
+  background-color: transparent; }
+  .col-lg-6 h1 {
+    color: white; }
+  .col-lg-6 p {
+    color: black;
+    text-align: justify;
+    font-family: 'Dosis', sans-serif; }
+
+.texto {
+  background: linear-gradient(to bottom, black); }
+  .texto__encabezado {
+    color: white; }
+  .texto__parrafo {
+    font-size: 20px; }
+    .texto__parrafo--color {
+      color: blue; }
+      @media only screen and (max-width: 768px) {
+        .texto__parrafo--color {
+          color: yellow; } }
+
+.navbar {
+  text-align: center;
+  color: white; }
+
+/* vista desktop */
+@media only screen and (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: center; }
+  .row-footerBg {
+    display: flex;
+    justify-content: space-around; } }
+
+/* vista mobile */
+@media only screen and (max-width: 767px) {
+  .centrado {
+    justify-content: flex-end; }
+  .redesSociales {
+    justify-content: center; }
+  .row-footerBg {
+    display: flex;
+    justify-content: space-around; } }
+
+.col-lg-6 {
+  contain: layout;
+  margin: 10px auto;
+  padding-top: 0%; }
+
+/* variables */
+.col-lg-6 {
+  background-color: transparent; }
+  .col-lg-6 h1 {
+    color: white; }
+  .col-lg-6 p {
+    color: black;
+    text-align: justify;
+    font-family: 'Dosis', sans-serif; }
+
+.texto {
+  background: linear-gradient(to bottom, black); }
+  .texto__encabezado {
+    color: white; }
+  .texto__parrafo {
+    font-size: 20px; }
+    .texto__parrafo--color {
+      color: blue; }
+      @media only screen and (max-width: 768px) {
+        .texto__parrafo--color {
+          color: yellow; } }
+
+/*imagen de fondo body*/
+body {
+  background-image: url("../img/fondo principal.jpg"); }
+
+h1 {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+  color: white !important;
+  font-weight: bold; }
+
+/*Imagen principal*/
+.centrados {
+  margin: 10px auto;
+  display: block; }
+
+.centrado:hover {
+  transform: translateY(-10px);
+  cursor: pointer; }
+
+/*Barra nav*/
+.navbar-nav {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold; }
+
+.col-12 {
+  font-size: 5px;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  font-family: 'Dosis', sans-serif; }
+  .col-12 h5 {
+    font-size: 15px; }
+
+.horarios {
+  text-align: justify;
+  font-size: 15px;
+  display: block; }
+
+.row-footerBg {
+  overflow: hidden;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  background-color: white; }
+  .row-footerBg h3 {
+    color: black; }
+
+.from-group label {
+  color: white; }
+
+.col-lg-6 {
+  text-align: center;
+  color: white; }
+
+/*animaciones*/
+.ico_foo {
+  transition: 1s;
+  margin: 20px auto;
+  display: inline-flex;
+  float: left;
+  text-align: center; }
+
+.ico_foo:hover {
+  transform: translateY(-10px);
+  cursor: pointer; }
+
+/*Footer*/
+.redesSociales {
+  transition: 1s;
+  text-align: center;
+  overflow: hidden; }
+
+.redesSociales:hover {
+  color: blue;
+  cursor: pointer; }
+
+.contacto {
+  font-size: 15px;
+  display: block; }
+
+.color-menu {
+  background-color: white; }
+
+.Imagenes {
+  margin: auto;
+  float: left;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Dosis', sans-serif;
+  color: white; }
+
+.Mapas {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  font-size: 80px; }
+
+.Menu {
+  text-align: center; }
+  .Menu .card {
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Dosis', sans-serif; }
+
+.form-label {
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px; }

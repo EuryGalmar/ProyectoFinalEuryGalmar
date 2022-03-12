@@ -1,0 +1,115 @@
+@import "colores";
+/*imagen de fondo body*/
+body{
+    background-image: url("../img/fondo\ principal.jpg");
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    color: $blanco !important;
+    font-weight: bold;
+}
+/*Imagen principal*/
+.centrados{
+    margin:10px auto;
+	display:block;
+}
+.centrado:hover{
+    transform: translateY(-10px);cursor: pointer;
+}
+/*Barra nav*/
+.navbar-nav{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+.col-12{
+    font-size: 5px;
+    background-color: transparent;
+    color: $blanco;
+    text-align:center;
+    font-family: 'Dosis', sans-serif;
+    h5{font-size: 15px;}
+}
+.horarios{
+    text-align: justify;
+    font-size: 15px;
+    display: block;
+   }
+.row-footerBg{
+    overflow: hidden;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    background-color:$blanco;
+    h3{
+        color: $negro;
+    }
+}
+.from-group{
+    label{
+        color: $blanco;
+    }
+
+}
+.col-lg-6{
+    text-align: center;
+    color: $blanco;
+}
+/*animaciones*/
+.ico_foo{
+    transition:1s;
+    margin:20px auto;
+    display: inline-flex;
+    float: left;
+    text-align: center;
+}
+.ico_foo:hover{transform: translateY(-10px);cursor: pointer;}
+/*Footer*/
+.redesSociales{
+transition: 1s; 
+text-align: center;
+overflow: hidden;
+}
+.redesSociales:hover{color: blue; cursor: pointer;}
+
+.contacto{
+    font-size: 15px;
+    display: block;
+}
+.color-menu{
+    background-color: $blanco;
+}
+.Imagenes{
+    margin: auto;
+    float: left;
+    display:block;
+    text-align: center;
+    font-size: 30px ;
+    font-family: 'Dosis', sans-serif;
+    color: $blanco;
+}
+.Mapas{
+    
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: $blanco;
+    font-size: 80px;
+}
+.Menu{
+    text-align:center;
+    .card{
+    display:inline-flex;
+    margin:10px;
+    padding: 10px;
+    justify-content:center;
+    background-color:$negro;
+    font-family: 'Dosis', sans-serif;}
+}
+.form-label{
+    color: $blanco;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}

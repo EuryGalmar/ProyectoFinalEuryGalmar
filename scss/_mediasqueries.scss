@@ -1,0 +1,21 @@
+/* vista desktop */
+@media only screen and (min-width: 1024px){
+    .navbar-expand-lg .navbar-collapse{justify-content: center;}
+    .row-footerBg{display: flex;justify-content: space-around;}
+    }
+    
+    /* vista mobile */
+    @media only screen and (max-width: 767px){
+        .centrado{
+            justify-content: flex-end;
+        }
+        .redesSociales{
+            justify-content:center;
+        }
+        .row-footerBg{
+            display: flex; 
+            justify-content: space-around;
+        }
+    }
+    
+    

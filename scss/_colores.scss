@@ -1,0 +1,35 @@
+@import "fuentes";
+
+/* variables */
+$azul:blue;
+$negro:rgb(0,0,0);
+$amarillo:yellow;
+$blanco:white;
+
+.col-lg-6{
+	background-color: transparent;
+	h1{
+	 color:$blanco;
+	}
+	p{
+	color:$negro;
+	text-align: justify;
+	font-family: 'Dosis', sans-serif;
+	}
+} 
+
+.texto{
+	background:linear-gradient(to bottom, black);
+	&__encabezado{
+		color:$blanco;
+	}
+	&__parrafo{
+		font-size:20px;
+		&--color{
+		color:$azul;
+		 @media only screen and (max-width:768px){
+		color:$amarillo;
+		}
+		}
+	}
+}
